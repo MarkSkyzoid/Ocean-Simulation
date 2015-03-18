@@ -1,0 +1,19 @@
+﻿Build started 14/01/2015 21:53:23.
+     1>Project "C:\Users\Marco\Desktop\blitz-0.10\blitz\blitz.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"C:\Users\Marco\Desktop\blitz-0.10\\" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D BZ_DEBUG /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"Win32\Debug\\" /Fd"Win32\Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt ..\src\globals.cpp
+         globals.cpp
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\Lib.exe /OUT:"Win32\Debug\blitz.lib" /NOLOGO Win32\Debug\globals.obj
+         blitz.vcxproj -> C:\Users\Marco\Desktop\blitz-0.10\blitz\Win32\Debug\blitz.lib
+       PostBuildEvent:
+         mkdir "C:\Users\Marco\Desktop\blitz-0.10\lib\Win32"
+         copy  "C:\Users\Marco\Desktop\blitz-0.10\blitz\Win32\Debug\blitz.lib" "C:\Users\Marco\Desktop\blitz-0.10\lib\Win32\blitz_d.lib"
+         
+         :VCEnd
+                 1 file(s) copied.
+     1>Done Building Project "C:\Users\Marco\Desktop\blitz-0.10\blitz\blitz.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:11.10
