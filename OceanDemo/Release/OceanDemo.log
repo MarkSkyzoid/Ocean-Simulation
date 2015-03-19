@@ -1,5 +1,89 @@
-﻿Build started 06/03/2015 00:11:31.
+﻿Build started 19/03/2015 12:56:18.
+     1>Project "C:\Users\Marco\Documents\GitHub\Ocean-Simulation\OceanDemo\OceanDemo.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"C:\Users\Marco\Documents\GitHub\Ocean-Simulation\Lib\glew\include" /I"C:\Users\Marco\Documents\GitHub\Ocean-Simulation\Lib\Imath\\" /I"C:\Users\Marco\Documents\GitHub\Ocean-Simulation\Lib\glm\include" /I"C:\Users\Marco\Documents\GitHub\Ocean-Simulation\Lib\FFTW\\" /I"C:\Users\Marco\Documents\GitHub\Ocean-Simulation\Lib\SFML\include" /I"C:\Users\Marco\Documents\GitHub\Ocean-Simulation\Lib\blitz++\\" /I"C:\Users\Marco\Documents\GitHub\Ocean-Simulation\Lib\AntTweakBar\include\\" /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D SFML_STATIC /D GLEW_STATIC /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Application.cpp BasicIO.cpp CameraComponent.cpp Component.cpp GameObject.cpp Geometry.cpp GLUtil.cpp GraphicsContext.cpp main.cpp OceanComponent.cpp Scene.cpp Shader.cpp TerrainComponent.cpp
+         Application.cpp
+     1>C:\Users\Marco\Documents\GitHub\Ocean-Simulation\Lib\blitz++\blitz/ms/bzconfig.h(23): warning C4005: '_CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES' : macro redefinition
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\crtdefs.h(355) : see previous definition of '_CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES'
+     1>c:\users\marco\documents\github\ocean-simulation\oceandemo\OceanComponent.h(91): warning C4244: 'return' : conversion from 'const double' to 'acqua::Real', possible loss of data
+         GLM: angleAxis function taking degrees as a parameter is deprecated. #define GLM_FORCE_RADIANS before including GLM headers to remove this message.
+         BasicIO.cpp
+         CameraComponent.cpp
+         GLM: perspective function taking degrees as a parameter is deprecated. #define GLM_FORCE_RADIANS before including GLM headers to remove this message.
+         Component.cpp
+         GameObject.cpp
+         GLM: angleAxis function taking degrees as a parameter is deprecated. #define GLM_FORCE_RADIANS before including GLM headers to remove this message.
+         GLM: pitch function returning degrees is deprecated. #define GLM_FORCE_RADIANS before including GLM headers to remove this message.
+         GLM: yaw function returning degrees is deprecated. #define GLM_FORCE_RADIANS before including GLM headers to remove this message.
+         GLM: roll function returning degrees is deprecated. #define GLM_FORCE_RADIANS before including GLM headers to remove this message.
+         Geometry.cpp
+         GLUtil.cpp
+         GraphicsContext.cpp
+     1>GraphicsContext.cpp(168): warning C4003: not enough actual parameters for macro 'ASSERT'
+     1>GraphicsContext.cpp(285): warning C4805: '|' : unsafe mix of type 'bool' and type 'int' in operation
+     1>GraphicsContext.cpp(361): warning C4003: not enough actual parameters for macro 'ASSERT'
+         main.cpp
+         OceanComponent.cpp
+     1>C:\Users\Marco\Documents\GitHub\Ocean-Simulation\Lib\blitz++\blitz/ms/bzconfig.h(23): warning C4005: '_CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES' : macro redefinition
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\crtdefs.h(355) : see previous definition of '_CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES'
+     1>c:\users\marco\documents\github\ocean-simulation\oceandemo\OceanComponent.h(91): warning C4244: 'return' : conversion from 'const double' to 'acqua::Real', possible loss of data
+     1>OceanComponent.cpp(48): warning C4244: '=' : conversion from 'time_t' to 'int', possible loss of data
+     1>OceanComponent.cpp(247): warning C4018: '<' : signed/unsigned mismatch
+     1>OceanComponent.cpp(251): warning C4018: '<=' : signed/unsigned mismatch
+     1>OceanComponent.cpp(266): warning C4018: '<' : signed/unsigned mismatch
+     1>OceanComponent.cpp(268): warning C4018: '<=' : signed/unsigned mismatch
+     1>OceanComponent.cpp(277): warning C4018: '<' : signed/unsigned mismatch
+     1>OceanComponent.cpp(279): warning C4018: '<=' : signed/unsigned mismatch
+     1>OceanComponent.cpp(316): warning C4018: '<' : signed/unsigned mismatch
+     1>OceanComponent.cpp(318): warning C4018: '<' : signed/unsigned mismatch
+     1>OceanComponent.cpp(324): warning C4018: '<' : signed/unsigned mismatch
+     1>OceanComponent.cpp(326): warning C4018: '<' : signed/unsigned mismatch
+     1>OceanComponent.cpp(334): warning C4018: '>=' : signed/unsigned mismatch
+     1>OceanComponent.cpp(336): warning C4018: '>=' : signed/unsigned mismatch
+     1>OceanComponent.cpp(358): warning C4018: '<' : signed/unsigned mismatch
+     1>OceanComponent.cpp(360): warning C4018: '<' : signed/unsigned mismatch
+     1>OceanComponent.cpp(513): warning C4018: '<=' : signed/unsigned mismatch
+     1>OceanComponent.cpp(515): warning C4244: '=' : conversion from 'const double' to 'float', possible loss of data
+     1>OceanComponent.cpp(519): warning C4018: '>' : signed/unsigned mismatch
+     1>OceanComponent.cpp(521): warning C4244: '=' : conversion from 'const double' to 'float', possible loss of data
+     1>OceanComponent.cpp(525): warning C4018: '<=' : signed/unsigned mismatch
+     1>OceanComponent.cpp(527): warning C4244: '=' : conversion from 'const double' to 'float', possible loss of data
+     1>OceanComponent.cpp(531): warning C4018: '>' : signed/unsigned mismatch
+     1>OceanComponent.cpp(533): warning C4244: '=' : conversion from 'const double' to 'float', possible loss of data
+     1>OceanComponent.cpp(537): warning C4018: '<' : signed/unsigned mismatch
+     1>OceanComponent.cpp(539): warning C4018: '<=' : signed/unsigned mismatch
+     1>OceanComponent.cpp(552): warning C4018: '<' : signed/unsigned mismatch
+     1>OceanComponent.cpp(554): warning C4018: '<' : signed/unsigned mismatch
+         Scene.cpp
+     1>C:\Users\Marco\Documents\GitHub\Ocean-Simulation\Lib\blitz++\blitz/ms/bzconfig.h(23): warning C4005: '_CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES' : macro redefinition
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\crtdefs.h(355) : see previous definition of '_CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES'
+     1>c:\users\marco\documents\github\ocean-simulation\oceandemo\OceanComponent.h(91): warning C4244: 'return' : conversion from 'const double' to 'acqua::Real', possible loss of data
+         Shader.cpp
+         TerrainComponent.cpp
+     1>TerrainComponent.cpp(75): warning C4018: '<=' : signed/unsigned mismatch
+     1>TerrainComponent.cpp(77): warning C4018: '<=' : signed/unsigned mismatch
+     1>TerrainComponent.cpp(79): warning C4018: '>=' : signed/unsigned mismatch
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Marco\Documents\GitHub\Ocean-Simulation\Build\Release\OceanDemo.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\Users\Marco\Documents\GitHub\Ocean-Simulation\Lib\glew\lib\Release\Win32" /LIBPATH:"C:\Users\Marco\Documents\GitHub\Ocean-Simulation\Lib\FFTW" /LIBPATH:"C:\Users\Marco\Documents\GitHub\Ocean-Simulation\Lib\SFML\lib" /LIBPATH:"C:\Users\Marco\Documents\GitHub\Ocean-Simulation\Lib\blitz++\\" /LIBPATH:"C:\Users\Marco\Documents\GitHub\Ocean-Simulation\Lib\AntTweakBar\lib\\" blitz.lib glew32s.lib "libfftw3-3.lib" "libfftw3f-3.lib" "libfftw3l-3.lib" AntTweakBar.lib "sfml-system-s.lib" "sfml-window-s.lib" "sfml-graphics-s.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Marco\Documents\GitHub\Ocean-Simulation\Build\Release\OceanDemo.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Marco\Documents\GitHub\Ocean-Simulation\Build\Release\OceanDemo.lib" /MACHINE:X86 /SAFESEH Release\Application.obj
+         Release\BasicIO.obj
+         Release\CameraComponent.obj
+         Release\Component.obj
+         Release\GameObject.obj
+         Release\Geometry.obj
+         Release\GLUtil.obj
+         Release\GraphicsContext.obj
+         Release\main.obj
+         Release\OceanComponent.obj
+         Release\Scene.obj
+         Release\Shader.obj
+         Release\TerrainComponent.obj
+     1>LINK : warning LNK4098: defaultlib 'LIBCMT' conflicts with use of other libs; use /NODEFAULTLIB:library
+         Generating code
+         Finished generating code
+     1>glew32s.lib(glew.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'glew32s.lib(glew.obj)' or at 'C:\Users\Marco\Documents\GitHub\Ocean-Simulation\Build\Release\vc120.pdb'; linking object as if no debug info
+         OceanDemo.vcxproj -> C:\Users\Marco\Documents\GitHub\Ocean-Simulation\Build\Release\OceanDemo.exe
+     1>Done Building Project "C:\Users\Marco\Documents\GitHub\Ocean-Simulation\OceanDemo\OceanDemo.vcxproj" (Build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:00.02
+Time Elapsed 00:00:12.43

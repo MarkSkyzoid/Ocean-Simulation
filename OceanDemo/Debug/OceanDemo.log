@@ -1,5 +1,52 @@
-﻿Build started 06/03/2015 00:11:23.
+﻿Build started 19/03/2015 12:55:51.
+     1>Project "C:\Users\Marco\Documents\GitHub\Ocean-Simulation\OceanDemo\OceanDemo.vcxproj" on node 2 (Build target(s)).
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Marco\Documents\GitHub\Ocean-Simulation\Build\Debug\OceanDemo.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Users\Marco\Documents\GitHub\Ocean-Simulation\Lib\glew\lib\Release\Win32" /LIBPATH:"C:\Users\Marco\Documents\GitHub\Ocean-Simulation\Lib\FFTW" /LIBPATH:"C:\Users\Marco\Documents\GitHub\Ocean-Simulation\Lib\SFML\lib" /LIBPATH:"C:\Users\Marco\Documents\GitHub\Ocean-Simulation\Lib\blitz++\\" /LIBPATH:"C:\Users\Marco\Documents\GitHub\Ocean-Simulation\Lib\AntTweakBar\lib\\" blitz.lib glew32s.lib "libfftw3-3.lib" "libfftw3f-3.lib" "libfftw3l-3.lib" AntTweakBar.lib "sfml-system-s-d.lib" "sfml-window-s-d.lib" "sfml-graphics-s-d.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Marco\Documents\GitHub\Ocean-Simulation\Build\Debug\OceanDemo.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Marco\Documents\GitHub\Ocean-Simulation\Build\Debug\OceanDemo.lib" /MACHINE:X86 Debug\Application.obj
+         Debug\BasicIO.obj
+         Debug\CameraComponent.obj
+         Debug\Component.obj
+         Debug\GameObject.obj
+         Debug\Geometry.obj
+         Debug\GLUtil.obj
+         Debug\GraphicsContext.obj
+         Debug\main.obj
+         Debug\OceanComponent.obj
+         Debug\Scene.obj
+         Debug\Shader.obj
+         Debug\TerrainComponent.obj
+     1>LINK : warning LNK4098: defaultlib 'LIBCMT' conflicts with use of other libs; use /NODEFAULTLIB:library
+     1>glew32s.lib(glew.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'glew32s.lib(glew.obj)' or at 'C:\Users\Marco\Documents\GitHub\Ocean-Simulation\Build\Debug\vc120.pdb'; linking object as if no debug info
+     1>sfml-system-s-d.lib(Clock.cpp.obj) : warning LNK4099: PDB 'sfml-system-s-d.pdb' was not found with 'sfml-system-s-d.lib(Clock.cpp.obj)' or at 'C:\Users\Marco\Documents\GitHub\Ocean-Simulation\Build\Debug\sfml-system-s-d.pdb'; linking object as if no debug info
+     1>sfml-system-s-d.lib(Err.cpp.obj) : warning LNK4099: PDB 'sfml-system-s-d.pdb' was not found with 'sfml-system-s-d.lib(Err.cpp.obj)' or at 'C:\Users\Marco\Documents\GitHub\Ocean-Simulation\Build\Debug\sfml-system-s-d.pdb'; linking object as if no debug info
+     1>sfml-system-s-d.lib(Lock.cpp.obj) : warning LNK4099: PDB 'sfml-system-s-d.pdb' was not found with 'sfml-system-s-d.lib(Lock.cpp.obj)' or at 'C:\Users\Marco\Documents\GitHub\Ocean-Simulation\Build\Debug\sfml-system-s-d.pdb'; linking object as if no debug info
+     1>sfml-system-s-d.lib(Mutex.cpp.obj) : warning LNK4099: PDB 'sfml-system-s-d.pdb' was not found with 'sfml-system-s-d.lib(Mutex.cpp.obj)' or at 'C:\Users\Marco\Documents\GitHub\Ocean-Simulation\Build\Debug\sfml-system-s-d.pdb'; linking object as if no debug info
+     1>sfml-system-s-d.lib(Sleep.cpp.obj) : warning LNK4099: PDB 'sfml-system-s-d.pdb' was not found with 'sfml-system-s-d.lib(Sleep.cpp.obj)' or at 'C:\Users\Marco\Documents\GitHub\Ocean-Simulation\Build\Debug\sfml-system-s-d.pdb'; linking object as if no debug info
+     1>sfml-system-s-d.lib(String.cpp.obj) : warning LNK4099: PDB 'sfml-system-s-d.pdb' was not found with 'sfml-system-s-d.lib(String.cpp.obj)' or at 'C:\Users\Marco\Documents\GitHub\Ocean-Simulation\Build\Debug\sfml-system-s-d.pdb'; linking object as if no debug info
+     1>sfml-system-s-d.lib(ThreadLocal.cpp.obj) : warning LNK4099: PDB 'sfml-system-s-d.pdb' was not found with 'sfml-system-s-d.lib(ThreadLocal.cpp.obj)' or at 'C:\Users\Marco\Documents\GitHub\Ocean-Simulation\Build\Debug\sfml-system-s-d.pdb'; linking object as if no debug info
+     1>sfml-system-s-d.lib(Time.cpp.obj) : warning LNK4099: PDB 'sfml-system-s-d.pdb' was not found with 'sfml-system-s-d.lib(Time.cpp.obj)' or at 'C:\Users\Marco\Documents\GitHub\Ocean-Simulation\Build\Debug\sfml-system-s-d.pdb'; linking object as if no debug info
+     1>sfml-system-s-d.lib(ClockImpl.cpp.obj) : warning LNK4099: PDB 'sfml-system-s-d.pdb' was not found with 'sfml-system-s-d.lib(ClockImpl.cpp.obj)' or at 'C:\Users\Marco\Documents\GitHub\Ocean-Simulation\Build\Debug\sfml-system-s-d.pdb'; linking object as if no debug info
+     1>sfml-system-s-d.lib(MutexImpl.cpp.obj) : warning LNK4099: PDB 'sfml-system-s-d.pdb' was not found with 'sfml-system-s-d.lib(MutexImpl.cpp.obj)' or at 'C:\Users\Marco\Documents\GitHub\Ocean-Simulation\Build\Debug\sfml-system-s-d.pdb'; linking object as if no debug info
+     1>sfml-system-s-d.lib(SleepImpl.cpp.obj) : warning LNK4099: PDB 'sfml-system-s-d.pdb' was not found with 'sfml-system-s-d.lib(SleepImpl.cpp.obj)' or at 'C:\Users\Marco\Documents\GitHub\Ocean-Simulation\Build\Debug\sfml-system-s-d.pdb'; linking object as if no debug info
+     1>sfml-system-s-d.lib(ThreadLocalImpl.cpp.obj) : warning LNK4099: PDB 'sfml-system-s-d.pdb' was not found with 'sfml-system-s-d.lib(ThreadLocalImpl.cpp.obj)' or at 'C:\Users\Marco\Documents\GitHub\Ocean-Simulation\Build\Debug\sfml-system-s-d.pdb'; linking object as if no debug info
+     1>sfml-window-s-d.lib(GlContext.cpp.obj) : warning LNK4099: PDB 'sfml-window-s-d.pdb' was not found with 'sfml-window-s-d.lib(GlContext.cpp.obj)' or at 'C:\Users\Marco\Documents\GitHub\Ocean-Simulation\Build\Debug\sfml-window-s-d.pdb'; linking object as if no debug info
+     1>sfml-window-s-d.lib(GlResource.cpp.obj) : warning LNK4099: PDB 'sfml-window-s-d.pdb' was not found with 'sfml-window-s-d.lib(GlResource.cpp.obj)' or at 'C:\Users\Marco\Documents\GitHub\Ocean-Simulation\Build\Debug\sfml-window-s-d.pdb'; linking object as if no debug info
+     1>sfml-window-s-d.lib(JoystickManager.cpp.obj) : warning LNK4099: PDB 'sfml-window-s-d.pdb' was not found with 'sfml-window-s-d.lib(JoystickManager.cpp.obj)' or at 'C:\Users\Marco\Documents\GitHub\Ocean-Simulation\Build\Debug\sfml-window-s-d.pdb'; linking object as if no debug info
+     1>sfml-window-s-d.lib(Keyboard.cpp.obj) : warning LNK4099: PDB 'sfml-window-s-d.pdb' was not found with 'sfml-window-s-d.lib(Keyboard.cpp.obj)' or at 'C:\Users\Marco\Documents\GitHub\Ocean-Simulation\Build\Debug\sfml-window-s-d.pdb'; linking object as if no debug info
+     1>sfml-window-s-d.lib(Mouse.cpp.obj) : warning LNK4099: PDB 'sfml-window-s-d.pdb' was not found with 'sfml-window-s-d.lib(Mouse.cpp.obj)' or at 'C:\Users\Marco\Documents\GitHub\Ocean-Simulation\Build\Debug\sfml-window-s-d.pdb'; linking object as if no debug info
+     1>sfml-window-s-d.lib(VideoMode.cpp.obj) : warning LNK4099: PDB 'sfml-window-s-d.pdb' was not found with 'sfml-window-s-d.lib(VideoMode.cpp.obj)' or at 'C:\Users\Marco\Documents\GitHub\Ocean-Simulation\Build\Debug\sfml-window-s-d.pdb'; linking object as if no debug info
+     1>sfml-window-s-d.lib(Window.cpp.obj) : warning LNK4099: PDB 'sfml-window-s-d.pdb' was not found with 'sfml-window-s-d.lib(Window.cpp.obj)' or at 'C:\Users\Marco\Documents\GitHub\Ocean-Simulation\Build\Debug\sfml-window-s-d.pdb'; linking object as if no debug info
+     1>sfml-window-s-d.lib(WindowImpl.cpp.obj) : warning LNK4099: PDB 'sfml-window-s-d.pdb' was not found with 'sfml-window-s-d.lib(WindowImpl.cpp.obj)' or at 'C:\Users\Marco\Documents\GitHub\Ocean-Simulation\Build\Debug\sfml-window-s-d.pdb'; linking object as if no debug info
+     1>sfml-window-s-d.lib(WglContext.cpp.obj) : warning LNK4099: PDB 'sfml-window-s-d.pdb' was not found with 'sfml-window-s-d.lib(WglContext.cpp.obj)' or at 'C:\Users\Marco\Documents\GitHub\Ocean-Simulation\Build\Debug\sfml-window-s-d.pdb'; linking object as if no debug info
+     1>sfml-window-s-d.lib(InputImpl.cpp.obj) : warning LNK4099: PDB 'sfml-window-s-d.pdb' was not found with 'sfml-window-s-d.lib(InputImpl.cpp.obj)' or at 'C:\Users\Marco\Documents\GitHub\Ocean-Simulation\Build\Debug\sfml-window-s-d.pdb'; linking object as if no debug info
+     1>sfml-window-s-d.lib(JoystickImpl.cpp.obj) : warning LNK4099: PDB 'sfml-window-s-d.pdb' was not found with 'sfml-window-s-d.lib(JoystickImpl.cpp.obj)' or at 'C:\Users\Marco\Documents\GitHub\Ocean-Simulation\Build\Debug\sfml-window-s-d.pdb'; linking object as if no debug info
+     1>sfml-window-s-d.lib(VideoModeImpl.cpp.obj) : warning LNK4099: PDB 'sfml-window-s-d.pdb' was not found with 'sfml-window-s-d.lib(VideoModeImpl.cpp.obj)' or at 'C:\Users\Marco\Documents\GitHub\Ocean-Simulation\Build\Debug\sfml-window-s-d.pdb'; linking object as if no debug info
+     1>sfml-window-s-d.lib(WindowImplWin32.cpp.obj) : warning LNK4099: PDB 'sfml-window-s-d.pdb' was not found with 'sfml-window-s-d.lib(WindowImplWin32.cpp.obj)' or at 'C:\Users\Marco\Documents\GitHub\Ocean-Simulation\Build\Debug\sfml-window-s-d.pdb'; linking object as if no debug info
+     1>sfml-graphics-s-d.lib(Color.cpp.obj) : warning LNK4099: PDB 'sfml-graphics-s-d.pdb' was not found with 'sfml-graphics-s-d.lib(Color.cpp.obj)' or at 'C:\Users\Marco\Documents\GitHub\Ocean-Simulation\Build\Debug\sfml-graphics-s-d.pdb'; linking object as if no debug info
+     1>sfml-graphics-s-d.lib(Image.cpp.obj) : warning LNK4099: PDB 'sfml-graphics-s-d.pdb' was not found with 'sfml-graphics-s-d.lib(Image.cpp.obj)' or at 'C:\Users\Marco\Documents\GitHub\Ocean-Simulation\Build\Debug\sfml-graphics-s-d.pdb'; linking object as if no debug info
+     1>sfml-graphics-s-d.lib(ImageLoader.cpp.obj) : warning LNK4099: PDB 'sfml-graphics-s-d.pdb' was not found with 'sfml-graphics-s-d.lib(ImageLoader.cpp.obj)' or at 'C:\Users\Marco\Documents\GitHub\Ocean-Simulation\Build\Debug\sfml-graphics-s-d.pdb'; linking object as if no debug info
+         OceanDemo.vcxproj -> C:\Users\Marco\Documents\GitHub\Ocean-Simulation\Build\Debug\OceanDemo.exe
+     1>Done Building Project "C:\Users\Marco\Documents\GitHub\Ocean-Simulation\OceanDemo\OceanDemo.vcxproj" (Build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:00.24
+Time Elapsed 00:00:04.20

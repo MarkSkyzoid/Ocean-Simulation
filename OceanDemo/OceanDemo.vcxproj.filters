@@ -50,14 +50,8 @@
     <ClCompile Include="Component.cpp">
       <Filter>Core</Filter>
     </ClCompile>
-    <ClCompile Include="fft.cc">
-      <Filter>Math</Filter>
-    </ClCompile>
     <ClCompile Include="OceanComponent.cpp">
       <Filter>Core</Filter>
-    </ClCompile>
-    <ClCompile Include="my_complex.cc">
-      <Filter>Math</Filter>
     </ClCompile>
     <ClCompile Include="BasicIO.cpp">
       <Filter>Core</Filter>
@@ -103,14 +97,8 @@
     <ClInclude Include="Component.h">
       <Filter>Core</Filter>
     </ClInclude>
-    <ClInclude Include="fft.h">
-      <Filter>Math</Filter>
-    </ClInclude>
     <ClInclude Include="OceanComponent.h">
       <Filter>Core</Filter>
-    </ClInclude>
-    <ClInclude Include="my_complex.h">
-      <Filter>Math</Filter>
     </ClInclude>
     <ClInclude Include="TerrainComponent.h">
       <Filter>Core</Filter>
